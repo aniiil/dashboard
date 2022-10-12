@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.line_bg{
+    background-color: rgb(61, 168, 210);
+    
+}
+.pie_bg{
+    background-color: rgb(178, 14, 14);
+
+}
+.area_bg{
+    background-color: rgb(171, 177, 4);
+}
+.bar_bg{
+ background-color: rgb(217, 217, 5);
+}
+.card-body .bg-success{
+    background-color: "#57b960";
+}

@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  background-color: #384045;
+  width: 100vw;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #384045 !important;
+  background-color: #deede6;
+  border-radius: 50px;
+  padding: 12px 25px 12px 25px;
+  max-width: 110px;
+  margin: 0 30px 0 30px;
+}
+
+.btn-outline-success {
+  color: #deede6;
+  border-color: #deede6;
+}
+.navbar-toggler:focus,
+.navbar-toggler {
+  box-shadow: none;
+  border: none;
+  background-color: #deede6;
+}
+.navbar-brand.active {
+  font-size: 1.25em !important;
+  font-family: "Pacifico", cursive;
+  color: #fae319f4;
+}
+.navbar-brand {
+  font-size: 1.25em !important;
+  font-family: "Pacifico", cursive;
+  color: #fce303 !important;
+}
+@media screen and (min-width: 200px) and (max-width: 991px) {
+  .navbar-light .navbar-nav .nav-link {
+    margin-top: 10px;
+  }
+}
